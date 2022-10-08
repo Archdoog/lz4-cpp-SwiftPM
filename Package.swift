@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "lz4",
-            path: "",
+            path: ".",
             exclude: [
                 "build/",
                 "contrib/",
