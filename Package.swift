@@ -16,7 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "lz4",
-            path: "/",
             exclude: [
                 "build/",
                 "contrib/",
@@ -37,6 +36,19 @@ let package = Package(
                 "README.md",
                 "tmp",
                 "tmpsparse"
+            ],
+            sources: [
+                "lib/lz4.c",
+                "lib/lz4.h",
+                "lib/lz4file.c",
+                "lib/lz4file.h",
+                "lib/lz4frame_static.h",
+                "lib/lz4frame.c",
+                "lib/lz4frame.h",
+                "lib/lz4hc.c",
+                "lib/lz4hc.h",
+                "lib/xxhash.c",
+                "lib/xxhash.c",
             ],
             publicHeadersPath: "include")
     ]
