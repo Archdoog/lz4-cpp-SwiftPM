@@ -32,11 +32,9 @@ let package = Package(
                 "INSTALL",
                 "LICENSE",
                 "Makefile",
-                "Makefile.in",
+                "Makefile.inc",
                 "NEWS",
-                "README.md",
-                "tmp",
-                "tmpsparse"
+                "README.md"
             ],
             sources: [
                 "lib/lz4.c",
