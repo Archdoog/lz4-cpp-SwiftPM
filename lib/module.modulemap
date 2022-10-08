@@ -1,4 +1,4 @@
 module lz4 {
-  umbrella "../lib"
+  umbrella "../.."
   explicit module * { export * }
 }

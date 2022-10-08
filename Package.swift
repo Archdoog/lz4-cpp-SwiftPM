@@ -49,6 +49,6 @@ let package = Package(
                 "lib/xxhash.c",
                 "lib/xxhash.h",
             ],
-            publicHeadersPath: "include")
+            publicHeadersPath: "lib")
     ]
 )
