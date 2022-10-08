@@ -49,7 +49,7 @@ let package = Package(
                 "lib/lz4hc.c",
                 "lib/lz4hc.h",
                 "lib/xxhash.c",
-                "lib/xxhash.c",
+                "lib/xxhash.h",
             ],
             publicHeadersPath: "include")
     ]
